@@ -1,0 +1,65 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+} */
+.credit-card {
+  width: 350px;
+  background-color: #042848;
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.credit-card-title {
+  text-align: right;
+}
+.credit-card-content {
+  display: flex;
+}
+.credit-card-text {
+  flex: 1;
+  padding-right: 10px
+}
+.credit-card-chip {
+  width: 50px;
+  height: 40px;
+  background-color: #baaf7d;
+  border-radius: 10px;
+}
+.credit-card-number {
+  color: #baaf7d;
+  background-color: rgba(186, 175, 125, 0.2)
+}
+.credit-card-valid-thru {
+  text-align: right;
+}
+.credit-card-holder-name {
+  padding: 0;
+  font-size: 1.2em
+}
+.credit-card-logo {
+  width: 70px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+.credit-card-logo img {
+  width: 100%;
+}
